@@ -30,7 +30,7 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
   <title>Apps Built With Flutter</title>
   <link rel="manifest" href="manifest.json">
@@ -41,9 +41,17 @@
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
+  <script src="./firebase_config.js"></script>
 </head>
 
 <body>
+  <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-analytics.js"></script>
+  <script type="module">
+    import { firebaseConfig } from './firebase-config.js';
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 
