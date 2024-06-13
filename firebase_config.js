@@ -1,4 +1,4 @@
-export var firebaseConfig = {
+window.firebaseConfig = {
     apiKey: "AIzaSyDKOhf8u9rEUwKbec9Bfvu2DwAwjnWUlK0",
     authDomain: "appsbuiltwithflutter-db.firebaseapp.com",
     projectId: "appsbuiltwithflutter-db",
