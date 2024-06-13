@@ -45,6 +45,4 @@ app.*.map.json
 *.json
 .json
 
-*.js
-
 firebase_options.dart
