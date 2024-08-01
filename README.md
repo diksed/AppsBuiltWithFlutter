@@ -11,6 +11,7 @@ Apps Built With Flutter, Flutter ile geliştirilmekte olan Türk mobil uygulamal
 
 - Flutter SDK
 - GetX State Management
+- Firebase Analytics
 - Cloud Firestore
 - EmailJS
 
