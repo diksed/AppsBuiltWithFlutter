@@ -1,13 +1,13 @@
 # Apps Built With Flutter
 
-Apps Built With Flutter, Flutter ile geliştirilmekte olan Türk mobil uygulamalarını listeleyen bir websitesidir.
+Apps Built With Flutter is a website that lists Turkish mobile applications developed with Flutter.
 
-## Özellikler
+## Features
 
-- Uygulamaların adı, indirilme sayıları ve kategorileri gibi temel bilgileri içerir.
-- Her uygulama için package adı ve sosyal medya/link mağaza bağlantıları (LinkedIn, Play Store, App Store) mevcuttur.
+- Includes basic information such as the name, download numbers, and categories of the apps.
+- Each app has its package name and social media/store links (LinkedIn, Play Store, App Store).
 
-## Kullanılan Teknolojiler
+## Technologies Used
 
 - Flutter SDK
 - GetX State Management
@@ -15,5 +15,5 @@ Apps Built With Flutter, Flutter ile geliştirilmekte olan Türk mobil uygulamal
 - Cloud Firestore
 - EmailJS
 
-## Ekran Görüntüleri
+## Screenshots
 <img src="https://github.com/user-attachments/assets/56efaf16-ce19-4265-af1d-d1acac7475b9" width="75%" height="75%"/>
